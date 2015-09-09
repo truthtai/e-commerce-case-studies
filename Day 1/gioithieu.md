@@ -34,7 +34,7 @@
  > .class, #id, element
 
  - Các Style cơ bản:
- 
+
   ```
    .main {
    	  color: #fff;
@@ -52,7 +52,9 @@
   ```
 
  - Javascript ( Jquery -  AngularJS)
+
   > Jquery là một thư viện của javascript
+
   > AngularJS là một Framwork phát triển dựa trên Javascript để tạo các ứng dụng web . AngularJS thường dùng để phát triển frontend (giao diện khách hàng) thông qua các API để gọi data, sử dụng mô hình MVC rất mạnh mẽ
 
 2. Back-end
@@ -65,12 +67,15 @@
 
   - Database
   - Collection
-  - Database
+  - Document
 
    > [MongoDB](http://www.mongodb.com)
+
    > [MongoLab](http://www.mongolab.com)
 
+
  - Loopback
+ 
    > LoopBack is a highly-extensible, open-source Node.js framework
 
 3. Tools
