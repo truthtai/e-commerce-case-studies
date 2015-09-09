@@ -28,10 +28,13 @@
   ```
 	<title></title>
   ```
- > [http://fsd14.com/post/151-thiet-ke-website-cho-nguoi-moi-bat-dau-cau-truc-html](xem thêm)
+ > [Xem thêm](http://fsd14.com/post/151-thiet-ke-website-cho-nguoi-moi-bat-dau-cau-truc-html)
+
  - CSS3 ( Bootstrap 3)
  > .class, #id, element
+
  - Các Style cơ bản:
+ 
   ```
    .main {
    	  color: #fff;
