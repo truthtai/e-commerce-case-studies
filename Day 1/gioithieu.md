@@ -44,9 +44,10 @@
    	  margin: 0; // margin-top, margin-right, margin-bottom, margin-left
       padding: 0; // padding-top, padding-right, padding-bottom, padding-left
       border: 1px solid #fff // 0
-
    }
+
   ```
+
  - Javascript ( Jquery -  AngularJS)
   > Jquery là một thư viện của javascript
   > AngularJS là một Framwork phát triển dựa trên Javascript để tạo các ứng dụng web . AngularJS thường dùng để phát triển frontend (giao diện khách hàng) thông qua các API để gọi data, sử dụng mô hình MVC rất mạnh mẽ
@@ -63,13 +64,13 @@
   - Collection
   - Database
 
-   > [http://www.mongodb.com](MongoDB)
-   > [http://www.mongolab.com](MongoLab)
+   > [MongoDB](http://www.mongodb.com)
+   > [MongoLab](http://www.mongolab.com)
 
  - Loopback
    > LoopBack is a highly-extensible, open-source Node.js framework
 
 3. Tools
- - [http://www.sublimetext.com/3](Sublime Text)
- - [https://github.com](Github)
- - [https://bitbucket.org](Bitbucket)
+ - [Sublime Text](http://www.sublimetext.com/3)
+ - [https://github.com](https://github.com)
+ - [Bitbucket](https://bitbucket.org)
