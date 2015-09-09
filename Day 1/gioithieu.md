@@ -75,10 +75,10 @@
 
 
  - Loopback
- 
+
    > LoopBack is a highly-extensible, open-source Node.js framework
 
 3. Tools
  - [Sublime Text](http://www.sublimetext.com/3)
- - [https://github.com](https://github.com)
+ - [Github](https://github.com)
  - [Bitbucket](https://bitbucket.org)
