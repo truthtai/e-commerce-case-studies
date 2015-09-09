@@ -55,7 +55,7 @@
 
   > Jquery là một thư viện của javascript
 
-  > AngularJS là một Framwork phát triển dựa trên Javascript để tạo các ứng dụng web . AngularJS thường dùng để phát triển frontend (giao diện khách hàng) thông qua các API để gọi data, sử dụng mô hình MVC rất mạnh mẽ
+  > AngularJS là một Framework phát triển dựa trên Javascript để tạo các ứng dụng web . AngularJS thường dùng để phát triển frontend (giao diện khách hàng) thông qua các API để gọi data, sử dụng mô hình MVC rất mạnh mẽ
 
 2. Back-end
 
