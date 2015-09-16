@@ -39,19 +39,19 @@ CONTROLLER
 **SERVICES**
 AngularJS cung cấp một vài services sẵn, ví dụ như $http để thực hiện một lời gọi AJAX (XMLHttpRequest) đến server API. Những services này là những object duy nhất, dùng chung trong toàn app, và nó chỉ được khởi tạo một lần. Bạn sẽ có thể sẵn sàng sử dụng các object này ngay bất cứ lúc nào, và Angular framework sẽ quản lý những object này giúp bạn.
 
-**FILTERS - CÁC BỘ LỌC **
+**FILTERS - CÁC BỘ LỌC**
 
 Bạn sẽ sử dụng các bộ lọc này để lọc ra được những item từ một arrays nào đó.
 
-**DIRECTIVES - ĐIỀU HƯỚNG **
+**DIRECTIVES - ĐIỀU HƯỚNG**
 
 Các điều hướng là những đánh dấu (markers) trên các thành phần DOM. Nó có thể là bản thân cả element, thuộc tính, css,... để giúp bạn thao tác với element đó. Directives cũng có thể được sử dụng để tạo ra những thẻ HTML tuỳ biến, các widgets. AngularJS cung cấp sẵn một số directive thường dùng, mà sau này bạn sẽ quen thuộc, ví dụ như ngBind, ngModel, ...
 
-**TEMPLATES - MẪU GIAO DIỆN **
+**TEMPLATES - MẪU GIAO DIỆN**
 
 Template sẽ những view hiển thị các thông tin từ model do controller chỉ thị. Nó có thể là một file (ví dụ index.html), có thể là nhiều view như là những thành phần con (partials) để ghép lại thành một màn hình.
 
-**ROUTING - CHUYỂN HƯỚNG TRANG WEB **
+**ROUTING - CHUYỂN HƯỚNG TRANG WEB**
 
 Nếu bạn đã từng làm việc với các framework MVC, bạn sẽ hiểu khái niệm này. Routing sẽ giúp bạn chỉ định view nào sẽ hiển thị, nếu người dùng truy cập vào URL có patterns như thế nào. Nghĩa là nó sẽ thay đổi views hiển thị tương ứng với ngữ cảnh.
 
