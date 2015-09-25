@@ -23,4 +23,6 @@ bower install fullpage.js
 **PLUGIN**
 ```
 https://github.com/alvarotrigo/fullPage.js
+http://fancybox.net/
+http://www.cssdesignawards.com/articles/15-excellent-jquery-plugins-to-spice-up-your-sites/44/
 ```
