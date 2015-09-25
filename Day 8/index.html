@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>One Page Scroll Sites</title>
+	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create fullscreen pages fast and simple. One page scroll like iPhone website." />
+	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['home', 'services', 'news', 'contact'],
+				menu: '#menu',
+				scrollingSpeed: 1000
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+<ul id="menu">
+	<li data-menuanchor="home"><a href="#home">Home</a></li>
+	<li data-menuanchor="services"><a href="#services">Services</a></li>
+	<li data-menuanchor="news"><a href="#news">News</a></li>
+	<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<h1>This is Home</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum illo nesciunt hic expedita consectetur pariatur ullam. Fugiat voluptatem rem voluptatibus, necessitatibus aut nostrum, magnam velit optio? Esse quaerat quae mollitia!</p>
+		
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			<h1>This is Services</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi, eum quasi quaerat ullam laborum laudantium eos, quo accusantium dignissimos earum dolorum, alias ea quibusdam tempore autem id fugiat iure.</p>
+			
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>This is News</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sunt quisquam perspiciatis non nostrum ipsum fugit sapiente ipsa vel ipsam. Rem ratione consequatur assumenda architecto suscipit animi nulla commodi nisi!
+			</p>
+		</div>
+		
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>This is Contact</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat atque aut natus quos iure incidunt alias ratione eius recusandae consectetur, et earum deserunt vero dolorem laboriosam! Et dolores, earum quam.
+			</p>
+		</div>
+		
+	</div>
+</div>
+
+</body>

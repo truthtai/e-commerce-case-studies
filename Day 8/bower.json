@@ -1,0 +1,16 @@
+{
+  "name": "Day 8",
+  "version": "0.0.0",
+  "homepage": "https://github.com/truthtai/e-commerce-case-studies",
+  "authors": [
+    "truthtai <at3bestz@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
