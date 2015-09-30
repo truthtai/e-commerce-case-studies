@@ -1,34 +1,34 @@
 ##Build a Simple REST Application with AngularJS Node API with Strongloop##
 
-1. First you need to install the StrongLoop API server which is an NPM command.
+1.First you need to install the StrongLoop API server which is an NPM command.
 ```
 $ npm install -g strongloop
 ```
-2. You will enter in the directory where you want to create the project and your project name, which in this case will be example-api.
+2.You will enter in the directory where you want to create the project and your project name, which in this case will be example-api.
 ```
 $ slc loopback
 ```
-3. Now that the project is generated, we will jump into the project directory.
+3.Now that the project is generated, we will jump into the project directory.
 ```
 $ cd example-api
 ```
-4. We then set up our datasource and point it to an ItemsDB database. This is where we choose MongoDB as our datasource.
+4.We then set up our datasource and point it to an ItemsDB database. This is where we choose MongoDB as our datasource.
 ```
 $ slc loopback:datasource MongoDB
 ```
-5. And now to define our model. This is where we choose the datasource, input the plural form of the model name, and define the properties of the model.
+5.And now to define our model. This is where we choose the datasource, input the plural form of the model name, and define the properties of the model.
 ```
 $ slc loopback:model Member
 ```
-6. Because we are using MongoDB, we need to install the loopback-connector-mongodb package.
+6.Because we are using MongoDB, we need to install the loopback-connector-mongodb package.
 ```
 $ npm install loopback-connector-mongodb
 ```
-7. Make dir client/dist/js/
+7.Make dir client/dist/js/
 ```
 mkdir client/dist/js/
 ```
-8. Generated Loopback Angular SDK Service
+8.Generated Loopback Angular SDK Service
 ```
 lb-ng -m ExampleAPI -u http://localhost:3000/api server/server.js client/dist/js/lb-services.js
 ```
@@ -36,14 +36,14 @@ lb-ng -m ExampleAPI -u http://localhost:3000/api server/server.js client/dist/js
 >-u, --url [url] URL of the REST API endpoint.
 >lb-ng [ options]  path-to-server-script [ path-to-generated-services]
 
-9. And we are ready to roll!
+9.And we are ready to roll!
 ```
 $ slc run
 ```
 > You will then be able to go to http://localhost:3000/explorer to see the StrongLoop API Explorer; this is a great utility for exploring and interacting with your new API.
 
 ## Follow these steps to use the generated services inside your AngularJS application:
-1. Install packages ith NPM install && bower install
+1.Install packages ith NPM install && bower install
 ```
 bower init ( if not exits)
 ```
@@ -56,7 +56,7 @@ npm install -g gulp ( if dont install Gulp with global)
 ```
 npm install gulp gulp-uglify gulp-concat gulp-minify-css gulp-sourcemaps gulp-rename gulp-nodemon gulp-loopback-sdk-angular gulp-jshint
 ```
-2. Include **js/lb-services.js** in your **index.html** file
+2.Include **js/lb-services.js** in your **index.html** file
 ```
 <script src="js/lb-services.js"></script>
 ```
@@ -77,7 +77,7 @@ module.controller('LoginCtrl', function($scope, User, $location) {
         // error
       });
 ```      
-3. Client configuration
+3.Client configuration
 
 >You can configure some aspects of the generated services within the AngularJS client application using the LoopBackResourceProvider object, as illustrated below. This object is available to configuration blocks only; for more information, see  Module Loading & Dependencies  in the AngularJS documentation.
 app.js
