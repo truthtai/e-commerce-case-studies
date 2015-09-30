@@ -68,7 +68,7 @@ angular.module('my-app-module',
   ['ngRoute' /* etc */, 'lbServices', 'my-app.controllers'])
 To call a method on a model from your controller, add the model name as a dependency of the controller; for example:
  // access User model
-module.controller('LoginCtrl', function($scope, User, $location) {
+module.controller('LoginCtrl', function($scope, Member, $location, $state, Notification) {
   $scope.login = function() {
     $scope.loginResult = User.login($scope.credentials,
       function() {
