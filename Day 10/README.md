@@ -95,9 +95,9 @@ angular.module('my-app-module')
 ```  
 
 See example code
->[index.html]()
->[app.js]()
->[gulpfile.js]()
+>[index.html](https://github.com/truthtai/e-commerce-case-studies/blob/master/Day%2010/index.html)
+>[app.js](https://github.com/truthtai/e-commerce-case-studies/blob/master/Day%2010/app.js)
+>[gulpfile.js](https://github.com/truthtai/e-commerce-case-studies/blob/master/Day%2010/gulpfile.js)
 
 See [LoopBackResourceProvider](http://apidocs.strongloop.com/loopback-sdk-angular/#loopbackresourceprovider) API docs for the list of all available options.
 
